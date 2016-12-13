@@ -3,58 +3,52 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>Mi web de cervezas</title>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.runtime.min.js"></script>
-  <script src="js/templates.js"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div id="header"></div>
-  <div class="container">
-    <aside>
-      <div>
-        <h1 class="bannerTitle">Anuncio 1</h1>
-        <div class="bannerBody">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla odio doloremque magni nesciunt modi quidem alias numquam voluptas mollitia facilis voluptatum nostrum distinctio aspernatur, maxime, voluptatibus. Enim neque, libero eius.</p>
-          <p>Qui vero adipisci, maxime. Enim veritatis a praesentium, consectetur odit illum aut distinctio recusandae, atque accusamus quo dolore delectus dolores et! Delectus, pariatur quibusdam doloremque possimus facilis distinctio debitis itaque!</p>
-        </div>
+  <!--codigos para tabular y completar 
+				(img.logo+h1.title{Mis cervezas}+p.subtitle{Aficiones y locuras de un amante de la cerveza}+nav>ul.menu>li.menuitem*3>a.menulink)-->
+  <header>
+    <img src="img/logo.png" alt="" class="logo">
+    <h1 class="title">Mis cervezas</h1>
+    <p class="subtitle">Aficiones y locuras de un amante de la cerveza</p>
+    <nav>
+      <ul class="menu">
+        <li class="menuitem">
+          <a href="" class="menulink"></a>
+        </li>
+        <li class="menuitem">
+          <a href="" class="menulink"></a>
+        </li>
+        <li class="menuitem">
+          <a href="" class="menulink"></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <aside>
+    <div>
+      <h1 class="bannerTitle"></h1>
+      <div class="bannerBody">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut fuga totam omnis nesciunt voluptas impedit dolorem, quidem atque quas accusamus cupiditate voluptatibus dolores deleniti. Numquam delectus et, similique impedit.</p>
+        <p>Repellat sunt, voluptatem quam, consequuntur delectus adipisci eaque laudantium sit voluptatibus laborum molestiae necessitatibus! Pariatur blanditiis, laboriosam, praesentium porro consectetur delectus deserunt quae, esse animi numquam aut. Magni voluptatibus, odio.</p>
       </div>
-      <div>
-        <h1 class="bannerTitle">Anuncio 2</h1>
-        <div class="bannerBody">
-          <p>Lorem ipsum daolor sit amet, consectetur adipisicing elit. Culpa nam facilis aliquid maxime repudiandae quam possimus, eum accusamus pariatur, minima optio odit nihil illum, aut sapiente! Omnis, explicabo quibusdam a.</p>
-          <p>Consectetur, doloremque, soluta. Sed alias quo est quam architecto, similique laudantium, cumque consequuntur quas expedita, mollitia, modi. Explicabo, ipsa, minima iste sed nesciunt cumque iusto quam ipsum alias laudantium repellat.</p>
-        </div>
+    </div>
+    <div>
+      <h1 class="bannerTitle"></h1>
+      <div class="bannerBody">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sed, tempora. Natus veniam in eos dolorem repudiandae maxime, porro, quidem et autem unde ut aspernatur quasi ad, mollitia iure tempora!</p>
+        <p>Optio possimus dolor rerum. Quasi error nam et iste ullam dolorem distinctio, similique ipsa tempore earum odit eos sapiente, tempora ex aspernatur voluptas aperiam, at tenetur ab voluptatem nemo dolorum.</p>
       </div>
-    </aside>
-    <main>
-      <article>
-        <header>
-          <h1 class="newstitle"><a href="">Como se tira la cerveza</a></h1>
-        </header>
-        17 de Mayo de 2016
-        <p>Quienes más saben de esto recomiendan la tirada especial o en dos tiempos.</p>
-        <p>El primer tiempo consiste en llenar tres cuartas partes de la copa sin generar espuma. El líquido debe caer sobre las paredes, sin movimientos de arriba y abajo de la copa y sin introducir el vaso en el grifo. Tras ponerlo en vertical, el segundo paso consiste en llenar los últimos tres centímetros de copa de una crema de espuma.</p>
-        <p>Los expertos consideran que algunas modas, como las de congelar los vasos, "mata" la cerveza.</p>
-      </article>
-      <article>
-        <header>
-          <h1 class="newstitle"><a href="">El consumo moderado de cerveza tiene un efecto preventivo sobre la diabetes</a></h1>
-        </header>
-        14 de Mayo de 2016
-        <p>El informe fue presentado por el centro Cerveza y Salud con la colaboración de la Associació de Diabètics de Catalunya y la Federación de Diabéticos Españoles.</p>
-        <p>Varios componentes de la cerveza: la fibra soluble, los compuestos polifenólicos, los minerales y la baja graduación alcohólica, ayudan en el control de la diabetes. Además, la cerveza es capaz de aumentar la capacidad antioxidante del plasma.</p>
-      </article>
-    </main>
-    <div id="footer"></div>
-  </div>
+    </div>
+  </aside>
+  <main></main>
+  <!--p.copyright{Sitio web realizado por un amante de la cerveza}-->
+  <footer>
+    <p class="copyright">Sitio web realizado por un amante de la cerveza</p>
+  </footer>
 </body>
 
-<script>
-    document.getElementById("header").innerHTML = Handlebars.templates.header();
-        document.getElementById("footer").innerHTML = Handlebars.templates.footer();
-</script>
 </html>
